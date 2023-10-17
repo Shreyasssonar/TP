@@ -1,0 +1,144 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+  position: sticky;
+  top:0px;
+  background-color: gray;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+a:link, a:visited {
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover{
+  color: red;
+}
+
+
+ul{
+background-color: black;
+padding: 20px;
+top: 0px;
+position: sticky;
+text-decoration: none;
+}
+li{
+    font-size: larger;
+    display: inline;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    transition: all 500ms ease;
+    cursor: pointer;
+    position: sticky;
+    text-decoration: none;
+}
+li:hover{
+    
+    color: red;
+}
+#name{
+    margin-top: 10vw;
+    margin-left:50px;
+    font-size: 50px;
+}
+#jobTitle{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.container {
+    display: flex; /* Use flexbox container */
+    justify-content: space-between; /* Space between children */
+  }
+  
+  .info{
+    width: 50%; 
+    height: 100px; 
+    float: left; 
+  }
+  .b1 {
+    margin-left: 60%; 
+    height: 2%; 
+    width: 30%;
+    border-radius: 5%;
+    transition: all 5s ease;
+  }
+  .b1::after{
+    margin-left: 60%; 
+    height: 2%; 
+    width: 30%;
+    border-radius: 5%;
+
+  }
+  .b1::before{
+    margin-left: 70%; 
+    height: 9%; 
+    border:5px solid red;
+    width: 20%;
+    border-radius: 5%;
+  }
+
+
+  .education {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:transparent;
+    color: white;
+}
+
+.education-item1 {
+    margin: 10px 0;
+    border-bottom: 2px solid gray;
+}
+.education-item2 {
+  margin: 10px 0;
+  border-bottom: 2px solid gray;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.marquee>img{
+  height: 200px;
+  width: 300px;
+  border: 2px solid white;
+  margin: 2px;
+}
+.icon{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  background-color: black;
+  height: 250px;
+}
+.icon>i{
+  margin: 50px;
+  font-size: 500px;
+  cursor: pointer;
+}
